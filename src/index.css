@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.selecaoRoupas {
+  width: 30%;
+}
+
+.carrinho {
+  width: 30%;
+  margin-left: 100px;
+}
+
+.principalVenda {
+  display: flex;
+}
+
+.botaovenda {
+  height: 50px;
+  align-self: center;
+}
+.botaoadicionar {
+  height: 50px;
+  align-self: center;
+}
+
+.itemCarrinho {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+}
